@@ -43,16 +43,16 @@ namespace PlayableShaderGlobal
                   }
                case PlayableShaderGlobalConfig.ValueType.Vector2:
                   {
-                     Vector2 v = value.vector2Value;
+                     Vector2 v = value.vector4Value;
                      v = EditorGUI.Vector2Field(rect, cfg.displayName, v);
-                     value.vector2Value = v;
+                     value.vector4Value = v;
                      break;
                   }
                case PlayableShaderGlobalConfig.ValueType.Vector3:
                   {
-                     Vector3 v = value.vector3Value;
+                     Vector3 v = value.vector4Value;
                      v = EditorGUI.Vector3Field(rect, cfg.displayName, v);
-                     value.vector3Value = v;
+                     value.vector4Value = v;
                      break;
                   }
                case PlayableShaderGlobalConfig.ValueType.Vector4:
