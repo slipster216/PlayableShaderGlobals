@@ -9,7 +9,7 @@ namespace PlayableShaderGlobal
    [TrackColor(0.5f, 0.5f, 0.8f)]
    [TrackMediaType(TimelineAsset.MediaType.Script)]
    [TrackClipType(typeof(PlayableShaderGlobalClip))]
-   public class PlayerShaderGlobalTrack : TrackAsset
+   public class PlayableShaderGlobalTrack : TrackAsset
    {
 
       public override Playable CreateTrackMixer(PlayableGraph graph, GameObject go, int inputCount)
